@@ -6,7 +6,6 @@
 }
 body{
     font-family: sans-serif;
-    overflow: hidden;
 }
 .top{
     display: flex;
@@ -211,15 +210,19 @@ body{
     width: 40%;
     height: 100vh;
 }
+
 .picture{
     animation: review .9s linear;
 }
+
+    
+
 @keyframes review{
      0%{
         opacity: 0;
      }
      100%{
-        opacity: 1;
+        opacity: 9;
      }
 }
 
@@ -616,22 +619,24 @@ input::placeholder{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 500px;
+        align-items: center;
+        width: 100%;
         height: 80vh;
 
     }
     .posi{
         display: flex;
+        width: 100%;
         justify-content: space-between;
     }
     .neche{
-        transform: translateY(125px);
-        margin-right: 200px;
+        transform: translateY(150px);
+        margin-left: 60px;
     }
     .blue{
         position: relative;
-        top: 125px;
-        right: 60px;
+        top: 150px;
+        right: 20px;
         z-index: 1400;
     }
     .blue1,.blue2{
@@ -640,18 +645,27 @@ input::placeholder{
     }
     .ff{
         transform: translateY(140px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .amina{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 400px;
+        width: 100%;
+        padding: 20px;
         transform: translateY(-300px);
         position: relative;
         top: 30px;
     }
     .amina h1{
         font-size: 30px;
+        width: 100%;
+    }
+    .amina p{
+        width: 100%;
     }
     .nav{
         width: 340px;
@@ -660,10 +674,11 @@ input::placeholder{
     .picture{
         display: flex;
         transform: translateY(-140px);
-        margin-right: 120px;
+        margin-right: 30px;
     }
     .topright{
-        width: 500px;
+        width: 100%;
+        background-color: #CCF381;
         height: 30vh;
     }
     .main{

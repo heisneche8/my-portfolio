@@ -272,6 +272,7 @@ body{
     place-items: center;
     flex-direction: column;
     margin-top: -170px;
+    width: 100%;
   }
   .main1{
     width: 350px;
@@ -283,7 +284,8 @@ body{
     flex-direction: column;
     position: relative;
     top: 700px;
-    height: 80vh;
+    background: #3D155F;
+    height: 100vh;
     
 
   }
@@ -316,9 +318,10 @@ body{
   .tw{
     transform: translateY(-750px);
     margin-left: 20px;
-
+   
     
   }
+  
 
     
 }
