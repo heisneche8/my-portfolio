@@ -630,17 +630,21 @@ input::placeholder{
         justify-content: space-between;
     }
     .neche{
-        transform: translateY(150px);
-        margin-left: 60px;
+        display: none;
+        /* transform: translateY(150px); */
+        /* margin-left: 60px; */
+        /* position: relative; */
+    }
     }
     #neche1{
-        transform: translateY(5px);
+        margin-top: 10px;
     }
     .blue{
-        position: relative;
-        top: 150px;
-        right: 20px;
+        transform: translate(-30px,150px);
         z-index: 1400;
+        /* position: relative; */
+        /* top: 150px; */
+        /* right: -300px; */
     }
     .blue1,.blue2{
         border: 1px solid #CCF381 ;
